@@ -1,0 +1,17 @@
+name: Path Filtered
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - run: echo "Code changed, building..."
