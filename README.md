@@ -1,6 +1,6 @@
 # CI/CD Testing Demo
 
-![CI/CD Pipeline](https://github.com/${{ github.repository }}/workflows/CI/CD%20Pipeline/badge.svg)
+![CI/CD Pipeline](https://github.com/cami-not-cami/cicd-testing/actions/workflows/ci-cd.yml/badge.svg)
 
 Demonstration of automated testing and building with GitHub Actions.
 
